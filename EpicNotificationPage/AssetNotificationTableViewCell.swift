@@ -9,15 +9,21 @@ import UIKit
 
 class AssetNotificationTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var statusView: UIView!
+    
+    @IBOutlet weak var notificationLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        statusView.layer.cornerRadius = statusView.frame.width / 2
+        statusView.layer.masksToBounds = true
+        
+        notificationLabel.sizeToFit()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+        
     }
 
 }

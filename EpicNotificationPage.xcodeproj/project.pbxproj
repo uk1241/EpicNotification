@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		8D41DD3F29E7D1D100D1DABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D41DD3E29E7D1D100D1DABB /* AppDelegate.swift */; };
 		8D41DD4129E7D1D100D1DABB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D41DD4029E7D1D100D1DABB /* SceneDelegate.swift */; };
-		8D41DD4329E7D1D100D1DABB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D41DD4229E7D1D100D1DABB /* ViewController.swift */; };
+		8D41DD4329E7D1D100D1DABB /* AssetNotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D41DD4229E7D1D100D1DABB /* AssetNotificationsViewController.swift */; };
 		8D41DD4629E7D1D100D1DABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D41DD4429E7D1D100D1DABB /* Main.storyboard */; };
 		8D41DD4829E7D1D200D1DABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D41DD4729E7D1D200D1DABB /* Assets.xcassets */; };
 		8D41DD4B29E7D1D200D1DABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D41DD4929E7D1D200D1DABB /* LaunchScreen.storyboard */; };
+		8D41DD5329E7E4EA00D1DABB /* AssetNotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D41DD5229E7E4EA00D1DABB /* AssetNotificationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8D41DD3B29E7D1D100D1DABB /* EpicNotificationPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicNotificationPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D41DD3E29E7D1D100D1DABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D41DD4029E7D1D100D1DABB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D41DD4229E7D1D100D1DABB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D41DD4229E7D1D100D1DABB /* AssetNotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetNotificationsViewController.swift; sourceTree = "<group>"; };
 		8D41DD4529E7D1D100D1DABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D41DD4729E7D1D200D1DABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D41DD4A29E7D1D200D1DABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D41DD4C29E7D1D200D1DABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D41DD5229E7E4EA00D1DABB /* AssetNotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetNotificationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				8D41DD3E29E7D1D100D1DABB /* AppDelegate.swift */,
 				8D41DD4029E7D1D100D1DABB /* SceneDelegate.swift */,
-				8D41DD4229E7D1D100D1DABB /* ViewController.swift */,
+				8D41DD4229E7D1D100D1DABB /* AssetNotificationsViewController.swift */,
+				8D41DD5229E7E4EA00D1DABB /* AssetNotificationTableViewCell.swift */,
 				8D41DD4429E7D1D100D1DABB /* Main.storyboard */,
 				8D41DD4729E7D1D200D1DABB /* Assets.xcassets */,
 				8D41DD4929E7D1D200D1DABB /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D41DD4329E7D1D100D1DABB /* ViewController.swift in Sources */,
+				8D41DD4329E7D1D100D1DABB /* AssetNotificationsViewController.swift in Sources */,
+				8D41DD5329E7E4EA00D1DABB /* AssetNotificationTableViewCell.swift in Sources */,
 				8D41DD3F29E7D1D100D1DABB /* AppDelegate.swift in Sources */,
 				8D41DD4129E7D1D100D1DABB /* SceneDelegate.swift in Sources */,
 			);
