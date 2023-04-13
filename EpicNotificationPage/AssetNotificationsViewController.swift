@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AssetNotificationsViewController.swift
 //  EpicNotificationPage
 //
 //  Created by R.Unnikrishnan on 13/04/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AssetNotification: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
