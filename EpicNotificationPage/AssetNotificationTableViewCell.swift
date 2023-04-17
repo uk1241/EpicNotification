@@ -12,6 +12,8 @@ class AssetNotificationTableViewCell: UITableViewCell {
     @IBOutlet weak var statusView: UIView!
     
     @IBOutlet weak var notificationLabel: UILabel!
+    
+    @IBOutlet weak var dateLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         statusView.layer.cornerRadius = statusView.frame.width / 2

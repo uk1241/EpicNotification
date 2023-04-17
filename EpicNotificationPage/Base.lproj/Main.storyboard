@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Notifications-->
+        <!--Notification-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="AssetNotification" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="AssetNotification" customModule="EpicNotificationPage" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,55 +16,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Iu2-os-xyY">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="72" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Iu2-os-xyY">
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AssetNotificationTableViewCell" rowHeight="75" id="onG-V4-lkH" customClass="AssetNotificationTableViewCell" customModule="EpicNotificationPage" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="75"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="AssetNotificationTableViewCell" rowHeight="72" id="onG-V4-lkH" customClass="AssetNotificationTableViewCell" customModule="EpicNotificationPage" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="72"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="onG-V4-lkH" id="7DL-oy-tx9">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="75"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="72"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-4A-G30">
-                                                    <rect key="frame" x="18" y="20" width="19" height="18"/>
+                                                    <rect key="frame" x="18" y="26" width="19" height="20"/>
                                                     <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="19" id="Owk-vj-GRQ"/>
-                                                        <constraint firstAttribute="width" constant="19" id="tcU-gn-8kj"/>
-                                                    </constraints>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ljw-JJ-WcW">
-                                                    <rect key="frame" x="341.66666666666669" y="20" width="41.333333333333314" height="20.333333333333329"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Akhil Raj return 3 quantity new asset for Monitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWP-Mg-RGC" userLabel="Notification Label">
+                                                    <rect key="frame" x="48" y="27" width="265" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="265" id="R0m-I9-otV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ljw-JJ-WcW">
+                                                    <rect key="frame" x="335" y="26" width="41.333333333333314" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akhil Raj return 3 quantity new asset for Monitor" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0D-Rk-IOP">
-                                                    <rect key="frame" x="48" y="18" width="234" height="22"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="234" id="jrM-Up-TfG"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="c0D-Rk-IOP" secondAttribute="bottom" constant="24" id="2HV-Io-SzP"/>
-                                                <constraint firstItem="c0D-Rk-IOP" firstAttribute="leading" secondItem="QPH-4A-G30" secondAttribute="trailing" constant="11" id="D8i-d0-0YO"/>
-                                                <constraint firstItem="c0D-Rk-IOP" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="topMargin" constant="7" id="Lhw-0g-jxc"/>
-                                                <constraint firstItem="c0D-Rk-IOP" firstAttribute="centerY" secondItem="QPH-4A-G30" secondAttribute="centerY" id="PEQ-pU-NWe"/>
-                                                <constraint firstItem="QPH-4A-G30" firstAttribute="leading" secondItem="7DL-oy-tx9" secondAttribute="leading" constant="18" id="XZR-Lf-4ih"/>
-                                                <constraint firstItem="QPH-4A-G30" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="top" constant="20" id="lvy-Yc-Ahd"/>
-                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="top" secondItem="QPH-4A-G30" secondAttribute="top" id="uDV-rR-oAO"/>
-                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="leading" secondItem="c0D-Rk-IOP" secondAttribute="trailing" constant="59.666666666666742" id="voj-xe-CHi"/>
+                                                <constraint firstItem="QPH-4A-G30" firstAttribute="leading" secondItem="7DL-oy-tx9" secondAttribute="leadingMargin" constant="-2" id="PcP-pL-oKh"/>
+                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="centerY" secondItem="QPH-4A-G30" secondAttribute="centerY" id="Weg-Fz-rcF"/>
+                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="leading" secondItem="QPH-4A-G30" secondAttribute="trailing" constant="11" id="bTR-f5-uF7"/>
+                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="centerY" secondItem="wWP-Mg-RGC" secondAttribute="centerY" id="c53-ob-lLc"/>
+                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="topMargin" constant="16" id="cnB-rt-4vo"/>
+                                                <constraint firstAttribute="trailing" secondItem="QPH-4A-G30" secondAttribute="trailing" constant="356" id="eGh-7W-8wq"/>
+                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="leading" secondItem="wWP-Mg-RGC" secondAttribute="trailing" constant="22" id="eHY-vR-6eS"/>
+                                                <constraint firstItem="QPH-4A-G30" firstAttribute="centerY" secondItem="7DL-oy-tx9" secondAttribute="centerY" id="j5A-PL-8kR"/>
+                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="top" secondItem="QPH-4A-G30" secondAttribute="top" id="ynM-eI-3h1"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
-                                            <outlet property="notificationLabel" destination="c0D-Rk-IOP" id="ZaG-Ll-myv"/>
+                                            <outlet property="dateLabel" destination="Ljw-JJ-WcW" id="MjU-5B-WGh"/>
+                                            <outlet property="notificationLabel" destination="wWP-Mg-RGC" id="clh-yO-4cR"/>
                                             <outlet property="statusView" destination="QPH-4A-G30" id="JqM-Et-4CQ"/>
                                         </connections>
                                     </tableViewCell>
@@ -84,7 +83,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iu2-os-xyY" secondAttribute="trailing" id="d3q-So-Dmu"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Notifications" id="Wd7-Jl-ZKW"/>
+                    <navigationItem key="navigationItem" title="Notification" id="Wd7-Jl-ZKW"/>
                     <connections>
                         <outlet property="notificationTableView" destination="Iu2-os-xyY" id="FdC-TK-vrO"/>
                     </connections>
@@ -102,6 +101,10 @@
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.015686274510000001" green="0.34509803919999998" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
