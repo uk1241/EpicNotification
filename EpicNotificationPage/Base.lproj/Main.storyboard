@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="72" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Iu2-os-xyY">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Iu2-os-xyY">
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -30,12 +30,13 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QPH-4A-G30">
                                                     <rect key="frame" x="18" y="26" width="19" height="20"/>
                                                     <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                                </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Akhil Raj return 3 quantity new asset for Monitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWP-Mg-RGC" userLabel="Notification Label">
-                                                    <rect key="frame" x="48" y="27" width="265" height="17"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="265" id="R0m-I9-otV"/>
+                                                        <constraint firstAttribute="height" constant="20" id="gJe-fY-Rwb"/>
+                                                        <constraint firstAttribute="width" constant="19" id="kny-VL-El7"/>
                                                     </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Akhil Raj return 3 quantity new asset for Monitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWP-Mg-RGC" userLabel="Notification Label">
+                                                    <rect key="frame" x="48" y="27" width="232" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -49,15 +50,16 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
-                                                <constraint firstItem="QPH-4A-G30" firstAttribute="leading" secondItem="7DL-oy-tx9" secondAttribute="leadingMargin" constant="-2" id="PcP-pL-oKh"/>
-                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="centerY" secondItem="QPH-4A-G30" secondAttribute="centerY" id="Weg-Fz-rcF"/>
-                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="leading" secondItem="QPH-4A-G30" secondAttribute="trailing" constant="11" id="bTR-f5-uF7"/>
-                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="centerY" secondItem="wWP-Mg-RGC" secondAttribute="centerY" id="c53-ob-lLc"/>
-                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="topMargin" constant="16" id="cnB-rt-4vo"/>
-                                                <constraint firstAttribute="trailing" secondItem="QPH-4A-G30" secondAttribute="trailing" constant="356" id="eGh-7W-8wq"/>
-                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="leading" secondItem="wWP-Mg-RGC" secondAttribute="trailing" constant="22" id="eHY-vR-6eS"/>
-                                                <constraint firstItem="QPH-4A-G30" firstAttribute="centerY" secondItem="7DL-oy-tx9" secondAttribute="centerY" id="j5A-PL-8kR"/>
-                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="top" secondItem="QPH-4A-G30" secondAttribute="top" id="ynM-eI-3h1"/>
+                                                <constraint firstItem="QPH-4A-G30" firstAttribute="leading" secondItem="7DL-oy-tx9" secondAttribute="leading" constant="18" id="Df1-JY-zSI"/>
+                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="leading" secondItem="QPH-4A-G30" secondAttribute="trailing" constant="11" id="H9J-AJ-Iqm"/>
+                                                <constraint firstAttribute="bottom" secondItem="Ljw-JJ-WcW" secondAttribute="bottom" constant="18" id="MeU-c7-y74"/>
+                                                <constraint firstAttribute="trailing" secondItem="Ljw-JJ-WcW" secondAttribute="trailing" constant="16.670000000000002" id="QLA-cG-rTK"/>
+                                                <constraint firstAttribute="bottom" secondItem="QPH-4A-G30" secondAttribute="bottom" constant="26" id="Zgw-bp-lte"/>
+                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="top" constant="18" id="fKP-5X-OUh"/>
+                                                <constraint firstItem="QPH-4A-G30" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="top" constant="26" id="g4k-mZ-MdZ"/>
+                                                <constraint firstItem="Ljw-JJ-WcW" firstAttribute="leading" secondItem="wWP-Mg-RGC" secondAttribute="trailing" constant="10" id="iNO-1a-aiV"/>
+                                                <constraint firstItem="wWP-Mg-RGC" firstAttribute="top" secondItem="7DL-oy-tx9" secondAttribute="topMargin" constant="16" id="ouI-N5-ugO"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="wWP-Mg-RGC" secondAttribute="bottom" constant="16" id="wzM-Ar-T4Q"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

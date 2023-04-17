@@ -31,8 +31,7 @@ class AssetNotification: UIViewController {
         
         notificationTableView.dataSource = self
         notificationTableView.delegate = self
-//        notificationTableView.rowHeight = UITableView.automaticDimension
-//        notificationTableView.estimatedRowHeight = 75
+        notificationTableView.sizeToFit()
         
         
         //appending the struct to the array
